@@ -25,17 +25,21 @@ a {
   color: rgb(255, 255, 255);
 }
 header {
-  padding: 1rem;
+  display: flex;
   border: 0.2rem solid rgb(0, 0, 0);
   margin: 0.5rem;
-  color: #fffefe;
   background: rgba(9, 0, 92, 0.719);
-  display: flex;
-  align-items: stretch;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  height: 130px;
   border-radius: 12px;
+  border-color: #c4b9b9;
+}
+header h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 #work {
   padding: 0.5rem;
@@ -71,28 +75,15 @@ footer p {
   align-items: flex-end;
 }
 header nav {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  color: black;
   display: flex;
   justify-content: center;
-}
-nav a {
-  display: flex;
-  color: rgb(254, 254, 255);
-  align-items: flex-end;
-  height: 10px;
-  justify-content: space-around;
-  padding: 1rem;
-  margin: 0.5rem;
-}
-.partmain {
-  display: flex;
-  height: 450px;
-  justify-content: space-around;
   align-items: center;
   padding: 1rem;
-  margin: 2rem;
+  width: 100%;
+  background: rgba(9, 0, 92, 0.164);
+}
+nav a {
+  padding: 0.5rem;
 }
 .work-grid {
   background: rgba(152, 167, 20, 0.993);
@@ -103,4 +94,8 @@ nav a {
   width: 300px;
   gap: 1rem;
   margin: 0 auto;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
