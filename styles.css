@@ -102,3 +102,9 @@ nav a {
   gap: 1.5rem;
   min-height: 50vh;
 }
+.grid1-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
