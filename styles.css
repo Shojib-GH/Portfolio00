@@ -13,7 +13,7 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.45rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ header {
   background: rgba(9, 0, 92, 0.719);
   height: 130px;
   border-radius: 12px;
-  border-color: #c4b9b9;
+  border-color: #fffefe;
 }
 header h1 {
   display: flex;
@@ -107,4 +107,40 @@ nav a {
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+header nav a:hover {
+  color: rgba(152, 167, 20, 0.993);
+}
+#about:hover {
+  border: 0.5rem solid black;
+  border-radius: 18px;
+}
+#work:hover {
+  border: 0.5rem solid black;
+  border-radius: 18px;
+}
+.work-grid:hover {
+  border: 0.5rem solid black;
+  border-radius: 18px;
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  .grid1-center {
+    padding-top: 16rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
 }
