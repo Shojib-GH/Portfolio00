@@ -112,15 +112,15 @@ header nav a:hover {
   color: rgba(152, 167, 20, 0.993);
 }
 #about:hover {
-  border: 0.5rem solid black;
+  border: 0.3rem solid black;
   border-radius: 18px;
 }
 #work:hover {
-  border: 0.5rem solid black;
+  border: 0.3rem solid black;
   border-radius: 18px;
 }
 .work-grid:hover {
-  border: 0.5rem solid black;
+  border: 0.3rem solid black;
   border-radius: 18px;
 }
 
